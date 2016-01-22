@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+// chmod u+x clean for using this file as executable
+
 var glob = require('glob')
 var fs = require('fs')
 
