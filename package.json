@@ -26,6 +26,7 @@
     "babel-preset-react-hmre": "^1.0.1",
     "babel-preset-survivejs-kanban": "^0.2.1",
     "css-loader": "^0.23.1",
+    "glob": "^6.0.4",
     "html-webpack-plugin": "^1.7.0",
     "html-webpack-template": "^2.5.2",
     "style-loader": "^0.13.0",
