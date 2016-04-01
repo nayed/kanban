@@ -61,5 +61,5 @@ export default class App extends React.Component {
                 task: 'New task'
             }])
         })
-    };
+    }
 }
