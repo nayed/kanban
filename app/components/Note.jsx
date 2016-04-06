@@ -1,3 +1,3 @@
 import React from 'react'
 
-export default () => <div>Learn Webpack wesh</div>
+export default ({task}) => <div>{task}</div>
