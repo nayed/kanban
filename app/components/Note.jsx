@@ -40,7 +40,14 @@ export default class Note extends React.Component {
 
     renderNote = () => {
         // If the user clicks a normal note, trigger editing logic
-        return <div onClick={this.edit}>{this.props.task}</div>
+        const onDelete = this.props.onDelete
+
+        return (
+            <div onClick={this.edit}>
+                <span>{this.props.task}</span>
+                {onDelete ? this.renderDelete() : null}
+            </div>
+        )
     }
 
     edit = () => {
@@ -73,5 +80,9 @@ export default class Note extends React.Component {
                 editing: false
             })
         }
+    }
+
+    renderDelete = () => {
+        return <button onClick={this.props.onDelete}>x</button>
     }
 }
