@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/nayed/kanban#readme",
   "dependencies": {
+    "alt": "^0.18.4",
     "node-uuid": "^1.4.7",
     "react": "^0.14.8",
     "react-dom": "^0.14.8"
